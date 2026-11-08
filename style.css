@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: url('./bg.jpg') no-repeat center/cover;
+    height:150vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.red-player {
+width: 250px;
+}
+.cooldown {
+color: white;
+display: flex;
+position: absolute;
+margin-top: 260px;
+font-family: Inter Tight;
+font-size: 50px;
+z-index: 5;
+}
+.btn {
+    background: none;
+    border: none;
+    opacity: 1;
+}
+.btn-img {
+    width: 150px;
+}
